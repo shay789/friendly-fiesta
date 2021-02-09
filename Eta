@@ -1,0 +1,14 @@
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print(" Enter speed: ");
+        int speed = in.nextInt();          // speed
+
+
+        System.out.print(" Enter distance: ");
+        int distance = in.nextInt();          //distance
+
+        double time = (double) distance / speed;
+        System.out.println("Your time is: " + time);
+    }
